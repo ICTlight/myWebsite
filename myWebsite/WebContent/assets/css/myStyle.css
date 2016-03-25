@@ -1,0 +1,27 @@
+.leftCol {
+    background-color: #ebebeb;
+}
+
+.navbar-brand h1{
+    font-size:2.5em;
+    font-family:'Audiowide', cursive;
+    color:#0c0c0c;
+    text-shadow: 1px 2px 1px #7E7E7E, 2px 3px 1px #504F4F;
+}
+.navbar-brand h2{
+    font-family: 'Audiowide', cursive;
+    color: #FFF;
+    font-size: 1.2em;
+    position: absolute;
+    /*bottom: 60px;*/
+    /*right: 35px;*/
+}
+.foot {
+    position: absolute;
+
+}
+
+.copy_right{
+    align-content: center;
+    text-align: center;
+}
