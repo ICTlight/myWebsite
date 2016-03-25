@@ -23,7 +23,7 @@
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li><a href="#">首页</a></li>
+                            <li><a href="<%=request.getContextPath() %>">首页</a></li>
                             <li class="active"><a href="https://github.com/ICTlight">GITHUB</a></li>
                             <li><a href="#">标签</a></li>
                             <li><a href="#">关于我</a></li>

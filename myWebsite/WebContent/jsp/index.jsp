@@ -23,7 +23,7 @@
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">首页</a></li>
+                            <li class="active"><a href="<%=request.getContextPath() %>/jsp/index.jsp">首页</a></li>
                             <li><a href="https://github.com/ICTlight">GITHUB</a></li>
                             <li><a href="#">标签</a></li>
                             <li><a href="#">关于我</a></li>
@@ -49,7 +49,7 @@
                 </div>
                 <div class="panel-body">
                     <ul>
-                        <li>2016-3-18 --------------  <a href="jsp/blog.jsp">jsonp跨域问题记录</a></li>
+                        <li>2016-3-18 --------------  <a href="<%=request.getContextPath() %>/jsp/blog.jsp">jsonp跨域问题记录</a></li>
                         <li>2016-3-18 --------------  <a href="">jsonp跨域问题记录</a></li>
                         <li>2016-3-18 --------------  <a href="">jsonp跨域问题记录</a></li>
                         <li>2016-3-18 --------------  <a href="">jsonp跨域问题记录</a></li>
