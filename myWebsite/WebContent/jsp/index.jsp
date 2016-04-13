@@ -1,162 +1,139 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8"%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>牙疼咒的纪录--首页</title>
-    <link href='http://fonts.googleapis.com/css?family=Monda' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="<%=request.getContextPath() %>/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="<%=request.getContextPath() %>/bootstrap/css/bootstrap-theme.css">
-    <link rel="stylesheet" href="<%=request.getContextPath() %>/assets/css/myStyle.css">
-    <script src="<%=request.getContextPath() %>/plugins/jquery.min.js"></script>
-    <script src="<%=request.getContextPath() %>/bootstrap/js/bootstrap.js"></script>
+    <script>
+        function getHtml() {
+            alert("选出HTML相关");
+        }
+    </script>
 </head>
 <body>
-<div class="container-fluid" id="MD">
-    <div class="container">
-        <div class="row clearfix">
-            <div class="col-md-12 column">
-                <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="#"><h1>SHARE</h1><h2>The Blog</h2></a>
-                    </div>
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="<%=request.getContextPath() %>/jsp/index.jsp">首页</a></li>
-                            <li><a href="https://github.com/ICTlight">GITHUB</a></li>
-                            <li><a href="#">标签</a></li>
-                            <li><a href="#">关于我</a></li>
-                            <li><a href="#">FAQ</a></li>
-                        </ul>
-                        <form class="navbar-form navbar-right" role="search">
-                            <div class="form-group">
-                                <input type="text" class="form-control" />
-                            </div> <button type="submit" class="btn btn-default">搜索</button>
-                        </form>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </div>
-    <br><br><br><br><br><br><br>
-    <div class="row-fluid">
-        <div class="col-lg-1 leftCol"></div>
-        <div class="col-lg-7">
-            <div class="panel panel-primary">
-                <div class="panel-heading">
-                    <h3 class="panel-title">2016.03</h3>
-                </div>
-                <div class="panel-body">
-                    <ul>
-                        <li>2016-3-18 --------------  <a href="<%=request.getContextPath() %>/jsp/blog.jsp">jsonp跨域问题记录</a></li>
-                        <li>2016-3-18 --------------  <a href="">jsonp跨域问题记录</a></li>
-                        <li>2016-3-18 --------------  <a href="">jsonp跨域问题记录</a></li>
-                        <li>2016-3-18 --------------  <a href="">jsonp跨域问题记录</a></li>
-                    </ul>
-                </div>
-            </div>
-            <br>
-            <div class="panel panel-primary">
-                <div class="panel-heading">
-                    <h3 class="panel-title">2016.02</h3>
-                </div>
-                <div class="panel-body">
-                    <ul>
-                        <li>2016-3-18 --------------  <a href="">jsonp跨域问题记录</a></li>
-                        <li>2016-3-18 --------------  <a href="">jsonp跨域问题记录</a></li>
-                        <li>2016-3-18 --------------  <a href="">jsonp跨域问题记录</a></li>
-                        <li>2016-3-18 --------------  <a href="">jsonp跨域问题记录</a></li>
-                    </ul>
-                </div>
-            </div>
-            <br>
-            <div class="panel panel-primary">
-                <div class="panel-heading">
-                    <h3 class="panel-title">2016.01</h3>
-                </div>
-                <div class="panel-body">
-                    <ul>
-                        <li>2016-3-18 --------------  <a href="">jsonp跨域问题记录</a></li>
-                        <li>2016-3-18 --------------  <a href="">jsonp跨域问题记录</a></li>
-                        <li>2016-3-18 --------------  <a href="">jsonp跨域问题记录</a></li>
-                        <li>2016-3-18 --------------  <a href="">jsonp跨域问题记录</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3">
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <div class="col-lg-4">
-                        <span><img src="assets/imgs/xiaoxin.jpg" style="height: 80px;width:80px; "></span>
-                    </div>
-                    <div class="col-lg-8">
-                        <span><h3>刘佗</h3></span>
-                        <span><h5>程序员，前端，伪全栈</h5></span>
-                    </div>
-
-                </div>
-                <div class="panel-footer">
-                    <span><a href="https://github.com/ICTlight"><img style="height: 30px;width: 50px;" src="assets/imgs/gitHublogo.png"></a></span>
-                    <span><a href=""><img style="height: 30px;width: 50px;" src="assets/imgs/QQlogo.jpg"></a></span>
-                    <span><a href=""><img style="height: 30px;width: 50px;" src="assets/imgs/weChatlogo.jpg"></a></span>
-                    <span><a href=""><img style="height: 30px;width: 50px;" src="assets/imgs/StackOverflowlogo.png"></a></span>
-                </div>
-            </div>
-
-            <br>
-            <div class="panel panel-default">
-                <div class="panel-heading"><h3 class="panel-title">标签筛选</h3></div>
-                <div class="panel-body">
-                    <div>
-                        <span class="label label-default">HTML</span>
-                        <span class="label label-primary">CSS</span>
-                        <span class="label label-success">JS</span>
-                        <span class="label label-info">Bootstrap</span>
-                        <span class="label label-success">AgularJS</span>
-                        <span class="label label-success">Ionic</span>
-                        <span class="label label-warning">jQuery</span>
-                        <span class="label label-danger">Java</span>
-                        <span class="label label-info">Oracle</span>
-                        <span class="label label-info">MySQL</span>
-                        <span class="label label-info">Linux</span>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="panel panel-default">
-                <div class="panel-heading"><h3 class="panel-title">友情链接</h3></div>
-                <div class="panel-body">
-                    <ul>
-                        <li>
-                            @<span><a>babygirl</a></span>
-                        </li>
-                        <li>
-                            @<span><a>anan</a></span>
-                        </li>
-                        <li>
-                            @<span><a>七颗牙</a></span>
-                        </li>
-                        <li>
-                            @<span><a>牙疼咒</a></span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-1 leftCol"></div>
-    </div>
-    <!--foot start-->
-    <div class="footer row-fluid">
-        <div class="col-lg-1"></div>
-        <div class="col-lg-10">
-            <div class="copy_right">
-                <p>刘佗 © All Rights Reseverd | Design by myself </p>
-            </div>
-        </div>
-        <div class="col-lg-1"></div>
-    </div>
+<div class="container-fluid">
+    <jsp:include page="/jsp/commons/header.jsp"></jsp:include>
 </div>
+<div class="row-fluid">
+
+    <!--left-block start-->
+    <div class="col-lg-1 leftCol"></div>
+    <!--left-block end-->
+
+    <!--left-body start-->
+    <div class="col-lg-7">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title"><a href="<%=request.getContextPath() %>/jsp/blog2.jsp">jsonp跨域问题记录</a></h3>
+            </div>
+            <div class="panel-body">
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这段时间用H5做移动app开发，遇到不少之前做web的时候不曾遇到的问题，记录一下，共勉～～
+                </p>
+
+                <p>首先说一个：js跨域取数的问题
+                </p>
+
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;描述： 之前做web都是通过后台获取数据，没考虑过跨域的问题。这次用h5写的app通过ajax去
+
+                    公司现有的web系统里拿数据，怎么也拿不到。网上查原因发现需要跨域。网上相关信息不少，但是
+
+                    跟着人家的描述就是调不同，n次尝试后终于OK，记录下：
+                </p>
+
+                <div><label style="float:right"><a href="<%=request.getContextPath() %>/jsp/blog2.jsp">》》》</a></label>
+                </div>
+            </div>
+            <div class="panel-footer">
+                <span class="label label-success">JS</span>
+                <span class="label label-warning">Ajax</span>
+                <span class="label label-danger">json</span>
+                    <span style="float:right"><i class="glyphicon glyphicon-calendar"></i><a
+                            href="">30-12-2015</a> </span>
+                <span style="float:right"><i class="glyphicon glyphicon-comment"></i><a href="">49 评论</a></span>
+                <span style="float:right"><i class="glyphicon glyphicon-eye-open"></i><a href="">22 喜欢</a></span>
+                <span style="float:right"><i class="glyphicon glyphicon-heart"></i><a href="">1.128 查看</a></span>
+            </div>
+        </div>
+        <br>
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title"><a href="<%=request.getContextPath() %>/jsp/blog3.jsp">关于if/else if</a></h3>
+            </div>
+            <div class="panel-body">
+                <p>&nbsp; &nbsp; &nbsp; &nbsp; 今天写存储过程的时候发现了个问题，就是在用if、elsif拼接sql的时候，得到的结果跟想象中</p>
+
+                <p>的不一样，大概描述是：</p>
+
+                <p>　　 &nbsp;我传进去多个参数，然后判断每个字段是否为空，非空则将字段拼接上去，结果跟预料的不一样，</p>
+
+                <p>发现我对if语句理解有偏差。</p>
+
+                <p>　　 &nbsp;为了验证，把我的这段sql逻辑写成js验证，js代码如下：</p>
+
+                <div><label style="float:right"><a href="<%=request.getContextPath() %>/jsp/blog3.jsp">》》》</a></label>
+                </div>
+            </div>
+            <div class="panel-footer">
+                <span class="label label-success">JS</span>
+                <span class="label label-warning">Ajax</span>
+                <span class="label label-danger">json</span>
+                    <span style="float:right"><i class="glyphicon glyphicon-calendar"></i><a
+                            href="">30-12-2015</a> </span>
+                <span style="float:right"><i class="glyphicon glyphicon-comment"></i><a href="">49 评论</a></span>
+                <span style="float:right"><i class="glyphicon glyphicon-eye-open"></i><a href="">22 喜欢</a></span>
+                <span style="float:right"><i class="glyphicon glyphicon-heart"></i><a href="">1.128 查看</a></span>
+            </div>
+        </div>
+        <br>
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title"><a href="<%=request.getContextPath() %>/jsp/blog.jsp">jsonp跨域问题记录</a></h3>
+            </div>
+            <div class="panel-body">
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这段时间用H5做移动app开发，遇到不少之前做web的时候不曾遇到的问题，记录一下，共勉～～
+                </p>
+
+                <p>首先说一个：js跨域取数的问题
+                </p>
+
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;描述： 之前做web都是通过后台获取数据，没考虑过跨域的问题。这次用h5写的app通过ajax去
+
+                    公司现有的web系统里拿数据，怎么也拿不到。网上查原因发现需要跨域。网上相关信息不少，但是
+
+                    跟着人家的描述就是调不同，n次尝试后终于OK，记录下：
+                </p>
+
+                <div><label style="float:right">
+                    <a href="<%=request.getContextPath() %>/jsp/blog.jsp">》》》</a></label>
+                </div>
+            </div>
+            <div class="panel-footer">
+                <span class="label label-success">JS</span>
+                <span class="label label-warning">Ajax</span>
+                <span class="label label-danger">json</span>
+                <span style="float:right"><i class="glyphicon glyphicon-calendar"></i><a href="">30-12-2015</a></span>
+                <span style="float:right"><i class="glyphicon glyphicon-comment"></i><a href="">49 评论</a></span>
+                <span style="float:right"><i class="glyphicon glyphicon-eye-open"></i><a href="">22 喜欢</a></span>
+                <span style="float:right"><i class="glyphicon glyphicon-heart"></i><a href="">1.128 查看</a></span>
+            </div>
+        </div>
+    </div>
+    <!--left-body end-->
+
+    <!--right-body start-->
+    <div class="col-lg-3">
+        <jsp:include page="/jsp/commons/right-body.jsp"></jsp:include>
+    </div>
+    <!--right-body end-->
+
+    <!--right-block start-->
+    <div class="col-lg-1 leftCol"></div>
+    <!--right-block end-->
+</div>
+<!--foot start-->
+<div class="footer row-fluid">
+    <jsp:include page="/jsp/commons/foot.jsp"></jsp:include>
+</div>
+<!--foot end-->
 </body>
 </html>

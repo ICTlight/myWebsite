@@ -11,9 +11,8 @@
     <div class="col-lg-1 leftCol"></div>
     <div class="col-lg-7">
         <div class="panel panel-primary">
-            <div class="panel-heading bloghead">
-                <h2 class="panel-title ">jsonp跨域问题记录</h2>
-                <span class="blogtime">2016-3-19 23:15:48</span>
+            <div class="panel-heading">
+                <h2 class="panel-title">jsonp跨域问题记录<span><h4>2016-3-19 23:15:48</h4></span></h2>
             </div>
             <div class="panel-body">
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这段时间用H5做移动app开发，遇到不少之前做web的时候不曾遇到的问题，记录一下，共勉～～
@@ -86,72 +85,19 @@ $.ajax({
                     <pre>jsonpCallback({"code":"0","errorMsg":null,"successResult":{"tokenkey":"b70979f623cc441fb0948d5563acda03"}})</pre>
                 </div>
                 <p>即：返回的变量名(json)。</p></div>
+            <div id="MySignature"></div>
+
+        </div>
+        <div class="panel-footer">
+            <span class="label label-warning">JS</span>
+            <span class="label label-warning">jQuery</span>
+            <span class="label label-warning">ajax</span>
         </div>
         <!--comments-area start-->
         <div>
             <jsp:include page="/jsp/commons/comments.jsp"></jsp:include>
         </div>
         <!--comments-area end-->
-        <!-- <hr>
-        --------------  Comment Area ------------------
-        <div class="comments-area">
-            <h3><img src="../assets/imgs/r-blog.png" title="comment"> 发表看法</h3>
-
-            <form>
-                <p>
-                    <label>姓名 </label><span style="color:red">*</span><br>
-                    <input type="text" value="">
-                </p>
-
-                <p>
-                    <label>邮件 </label>
-                    <span style="color:red">*</span><br>
-                    <input type="text" value="">
-                </p>
-
-                <p>
-                    <label>博客</label><br>
-                    <input type="text" value="">
-                </p>
-
-                <p>
-                    <label>观点</label>
-                    <span style="color:red">*</span><br>
-                    <textarea></textarea>
-                </p>
-
-                <p>
-                    <input style="width:100px;height:36px;" type="submit" value="提    交">
-                </p>
-            </form>
-        </div>
-        <div class="comment">
-            <h2 class="comments-head"><span>(2)</span>&nbsp;&nbsp;&nbsp;&nbsp;留&nbsp;&nbsp;言</h2>
-            <ul class="unstyled">
-                <li class="comments-box col-md-12">
-                    <div class="col-md-2"><a href="#"><img src="../assets/imgs/erdan.jpg" alt=""></a></div>
-                    <div class="col-md-10">
-                        <br>
-
-                        <div><a href="#">薛海芳</a> Feb 20, 2016</div>
-                        <p>熬稀饭，热馍馍，就莟菜</p>
-                    </div>
-                    <div class="clear"></div><br>
-                </li>
-                <li class="comments-box col-md-12">
-                    <div class="col-md-2"><a href="#"><img src="../assets/imgs/erdan.jpg" alt=""></a></div>
-                    <div class="col-md-10">
-                        <br>
-
-                        <div><a href="#">薛永安</a> Feb 16, 2016</div>
-                        <p>洋芋疙瘩瘩就米饭</p>
-                    </div>
-                    <div class="clear"></div>
-                </li>
-            </ul>
-            <div class="clear"></div>
-        </div>
-        --------------- End Comment Area --------------- -->
     </div>
     <br>
 </div>
@@ -166,6 +112,8 @@ $.ajax({
 <!--right-block start-->
 <div class="col-lg-1 leftCol"></div>
 <!--right-block end-->
+
+<div class="col-lg-1 leftCol"></div>
 <!--foot start-->
 <div class="footer row-fluid">
     <jsp:include page="/jsp/commons/foot.jsp"></jsp:include>

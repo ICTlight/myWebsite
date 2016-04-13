@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lt.bloglist.domain.BlogList">
+<resultMap id="BlogListMapper"  type="com.lt.bloglist.domain.BlogList">
+    	<id  property="monthId" column="monthId"  javaType="long" jdbcType="NUMERIC"/>
+        <result property="monthStr" column="monthStr"  javaType="java.lang.String" jdbcType="VARCHAR"/>
+        <result  property="subUrl" column="subUrl"  javaType="java.lang.String" jdbcType="VARCHAR"/>
+        <result  property="subId" column="subId"  javaType="long" jdbcType="NUMERIC"/>
+        <result property="subStr" column="subStr"  javaType="java.lang.String" jdbcType="VARCHAR"/>
+        <result  property="oth" column="oth"  javaType="java.lang.String" jdbcType="VARCHAR"/>
+        <result  property="createtime" column="createtime"  javaType="java.util.Date" jdbcType="DATE"/> 
+    </resultMap>
+       
+	<!-- 查询所有的月份信息 -->
+  <select id="findBlogMonths" resultType="com.lt.bloglist.domain.BlogList">
+  	<![CDATA[
+  	 SELECT t.monthId,t.monthStr FROM bloglists t ORDER BY t.monthId desc
+  	]]>
+  </select>
+  
+  <!-- 根据月份id查找该月博客列表 -->
+  <select id="findBlogListByCoid" parameterType="Long" resultType="com.lt.bloglist.domain.BlogList">
+  	<![CDATA[
+  	SELECT t1.subId,t1.subStr,t1.subUrl,t1.oth,t1.createtime FROM bloglists t1 WHERE t1.monthId=#{monthId} ORDER BY t1.subId desc
+  	]]>
+  </select>
+</mapper>
