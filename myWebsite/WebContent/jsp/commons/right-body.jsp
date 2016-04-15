@@ -19,10 +19,12 @@
     <div class="panel-footer">
 		  <span><a href="https://github.com/ICTlight"><img style="height: 30px;width: 50px;"
                                                            src="<%=request.getContextPath() %>/assets/imgs/gitHublogo.png"></a></span>
-		  <span><a href=""><img style="height: 30px;width: 50px;"
-                                src="<%=request.getContextPath() %>/assets/imgs/QQlogo.jpg"></a></span>
-		  <span><a href=""><img style="height: 30px;width: 50px;"
-                                src="<%=request.getContextPath() %>/assets/imgs/weChatlogo.jpg"></a></span>
+		  <span><a href="https://www.douban.com/people/65337075/"><img style="height: 30px;width: 50px;"
+                                                                       src="<%=request.getContextPath() %>/assets/imgs/doubanlogo.png"></a></span>
+		  <span onmouseover="document.getElementById('weichatIcon').style.display='block';"
+                onmouseout="document.getElementById('weichatIcon').style.display='none';">
+		     <a><img style="height: 30px;width: 50px;"
+                     src="<%=request.getContextPath() %>/assets/imgs/weChatlogo.png"></a></span>
 		  <span><a href="https://stackoverflow.com/users/4223114/ictlight"><img
                   style="height: 30px;width: 50px;"
                   src="<%=request.getContextPath() %>/assets/imgs/StackOverflowlogo.png"></a></span>
@@ -128,6 +130,13 @@
             </li>
         </ul>
     </div>
+</div>
+
+
+<!-- 微信二维码弹窗 -->
+<div id="weichatIcon" class="winchat_model">
+    <img style="width:160px;height:100%;" src="<%=request.getContextPath() %>/assets/imgs/erweima.jpg"
+         id="dituContent"/>
 </div>
 </body>
 </html>

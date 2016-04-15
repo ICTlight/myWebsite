@@ -32,6 +32,8 @@
 
                                 <div class="row placeholders">
                                     <div class="col-xs-6 col-sm-3 placeholder">
+                                        <p class="mycircle">老一代90后</p>
+
                                         <img alt="老一代90后" class="img-responsive"
                                              src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iIzBEOEZEQiIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjEwMCIgeT0iMTAwIiBzdHlsZT0iZmlsbDojZmZmO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjEzcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MjAweDIwMDwvdGV4dD48L3N2Zz4="/>
                                         <h4>
@@ -106,7 +108,7 @@
 
                                     <p>邮箱: <span>icttliu@yeah.net</span></p>
 
-                                    <p>关注: <span>GitHub</span>，<span>微信</span></p>
+                                    <p>QQ: <span>934 261 905</span></p>
 
                                 </div>
                             </div>

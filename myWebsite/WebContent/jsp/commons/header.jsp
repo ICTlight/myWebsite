@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="<%=request.getContextPath() %>/assets/css/myStyle.css">
     <script src="<%=request.getContextPath() %>/plugins/jquery.min.js"></script>
     <script src="<%=request.getContextPath() %>/bootstrap/js/bootstrap.js"></script>
+    <script src="<%=request.getContextPath() %>/jsp/myjs.js"></script>
 </head>
 <body>
 <div class="row-fluid ">

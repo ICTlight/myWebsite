@@ -117,3 +117,32 @@
     height: 44px;
     font-size: 18px;
 }
+
+/* ΢�Ŷ�ά�뵯�� */
+.winchat_model {
+    display: none;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    padding: 10px;
+    border: 6px solid black;
+    background-color: white;
+    z-index: 1;
+    overflow: auto;
+}
+
+/* ͼ���С */
+.icons {
+    width: 25px;
+    height: 25px;
+}
+
+.mycircle {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    font-family: 'Monda', sans-serif;
+}

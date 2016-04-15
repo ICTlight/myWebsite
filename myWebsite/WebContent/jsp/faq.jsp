@@ -2,11 +2,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script>
-        function getHtml() {
-            alert("选出HTML相关");
-        }
-    </script>
 </head>
 <body>
 <div class="container-fluid">
@@ -20,7 +15,7 @@
 
     <div class="col-lg-4">
         <div class="daohang">
-            <h3>导航</h3>
+            <h3><img class="icons" src="../assets/imgs/location.png" title="location">导航</h3>
 
             <div class="map">
                 <!-- <iframe width="100%" height="175" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
@@ -31,11 +26,11 @@
             </div>
         </div>
         <div class="address">
-            <h3>联系方式：</h3>
+            <h3><img class="icons" src="../assets/imgs/connects.png" title="connections">联系方式</h3>
 
             <p>雨霖大厦，1002</p>
 
-            <p>北京市，朝阳区，向军南里二巷甲5号，</p>
+            <p>北京市，朝阳区，向军南里二巷甲5号</p>
 
             <p>中国，北京</p>
 
@@ -43,12 +38,12 @@
 
             <p>邮箱: <span>icttliu@yeah.net</span></p>
 
-            <p>关注: <span>GitHub</span>，<span>微信</span></p>
+            <p>QQ: <span>934 261 905</span></p>
         </div>
     </div>
     <!--right-body start-->
     <div class="col-lg-6 faqform">
-        <h3><img src="../assets/imgs/r-blog.png" title="comment">疑问记录</h3>
+        <h3><img class="icons" src="../assets/imgs/r-blogs.png" title="comment">疑问记录</h3>
 
         <form>
             <p>
